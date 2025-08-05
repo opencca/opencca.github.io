@@ -32,7 +32,7 @@ jobs:
       # If you're changing the branch from main,
       # also change the `master` in `refs/heads/master`
       # below accordingly.
-      if: ${{ github.ref == 'refs/heads/master' }}
+      if: ${{ github.ref == 'refs/heads/opencca/main' }}
       with:
         deploy_key: ${{ secrets.OPENCCA_GITHUB_PAGES_SSH_KEY }}
         publish_dir: ./public/
