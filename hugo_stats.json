@@ -19,9 +19,11 @@
       "h1",
       "h2",
       "h3",
+      "h4",
       "h5",
       "head",
       "header",
+      "hr",
       "html",
       "iframe",
       "img",
@@ -47,9 +49,15 @@
       "style",
       "summary",
       "svg",
+      "table",
+      "tbody",
+      "td",
       "template",
+      "th",
+      "thead",
       "time",
       "title",
+      "tr",
       "ul"
     ],
     "classes": [
@@ -138,7 +146,6 @@
       "fs-5",
       "h-00",
       "h-100",
-      "h-50",
       "h-90",
       "h-auto",
       "h3",
@@ -272,10 +279,23 @@
       "wrap"
     ],
     "ids": [
+      "3rd-party",
       "TableOfContents",
+      "binaries-and-assets",
+      "binary-and-assets",
+      "build-and-flash",
+      "build-and-setup",
+      "build-tools",
       "buttonColorMode",
       "confidential-computing-summit-2025",
+      "doc-and-assets",
+      "documentation-and-assets",
       "doks-docs-nav",
+      "firmware",
+      "helpers",
+      "helpers-and-3rd-party",
+      "helpers-and-utilities",
+      "noindex-false--false-default-or-true",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
@@ -289,7 +309,8 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
-      "toc"
+      "toc",
+      "tools"
     ]
   }
 }
