@@ -62,6 +62,7 @@
     ],
     "classes": [
       "DocSearch-Label",
+      "academic-users",
       "active",
       "align-items-center",
       "align-items-stretch",
@@ -113,6 +114,7 @@
       "container-lg",
       "content",
       "contributors",
+      "copy",
       "created-date",
       "d-block",
       "d-flex",
