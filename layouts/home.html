@@ -50,11 +50,55 @@
         <div id="openccaCarousel" class="carousel slide shadow-sm rounded mt-4" data-bs-ride="carousel">
           <div class="carousel-inner rounded">
             <div class="carousel-item active">
-              <img src="http://localhost:1313/opencca1.png" class="d-block w-100 img-fluid" alt="OpenCCA Hardware">
+              <a href="/images/opencca5.png">{{ partial "img" (dict
+                "page" .
+                "src" "images/opencca5.png"
+                "alt" "OpenCCA Box"
+                "class" "d-block w-100 img-fluid equal-height"
+                ) }}</a>
             </div>
             <div class="carousel-item">
-              <img src="http://localhost:1313/opencca5.png" class="d-block w-100 img-fluid" alt="OpenCCA Hardware">
+             <a href="/images/opencca1.png"> {{ partial "img" (dict
+                "page" .
+                "src" "images/opencca1.png"
+                "alt" "OpenCCA Box"
+                "class" "d-block w-100 img-fluid equal-height"
+                ) }}
+              </a>
             </div>
+
+            <div class="carousel-item">
+            <a href="/images/opencca_board.png">{{ partial "img" (dict
+            "page" .
+            "src" "images/opencca_board.png"
+            "alt" "OpenCCA initial version"
+            "class" "d-block w-100 img-fluid equal-height"
+              ) }}</a>
+            </div>
+            <div class="carousel-item">
+            <a href="/images/opencca-wip.jpg">{{ partial "img" (dict
+            "page" .
+            "src" "images/opencca-wip.jpg"
+            "alt" "OpenCCA initial version"
+            "class" "d-block w-100 img-fluid equal-height"
+              ) }}</a>
+            </div>
+            <div class="carousel-item">
+            <a href="/images/opencca-stack.jpg">{{ partial "img" (dict
+            "page" .
+            "src" "images/opencca-stack.jpg"
+            "alt" "OpenCCA stacked boxes"
+            "class" "d-block w-100 img-fluid equal-height"
+              ) }}</a>
+            </div>
+            <div class="carousel-item">
+              <a href="/images/opencca-with-pcie-gpu.jpg">{{ partial "img" (dict
+              "page" .
+              "src" "images/opencca-with-pcie-gpu.jpg"
+              "alt" "OpenCCA with PCIe GPU"
+              "class" "d-block w-100 img-fluid equal-height"
+                ) }}</a>
+              </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#openccaCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
