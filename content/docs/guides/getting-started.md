@@ -15,3 +15,5 @@ seo:
 ---
 
 Follow the [build instructions](https://github.com/opencca/opencca-build) to build and run OpenCCA.
+
+[{{< img src="images/getting-started-image.png" width="300" alt="Getting started" >}}](https://github.com/opencca/opencca-build)

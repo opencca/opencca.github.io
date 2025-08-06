@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-We host a [Github Runner](https://github.com/opencca/ci-scripts) that provides reproduciable builds.
+We host a [Github Runner](https://github.com/opencca/ci-scripts) that provides reproducible builds.
 
 ### Tools
 | Repository                                                            | Description                                  | Build Status |
