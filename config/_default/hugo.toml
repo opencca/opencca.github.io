@@ -1,5 +1,5 @@
 title = "OpenCCA"
-baseurl = "http://localhost/"
+baseurl = "https://opencca.github.io/"
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
