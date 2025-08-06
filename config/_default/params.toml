@@ -1,7 +1,7 @@
 # Hugo
 title = "OpenCCA"
 description = "An Open Framework to Enable Arm CCA Research"
-images = ["cover.png"]
+images = ["cover.jpg"]
 
 # mainSections
 mainSections = ["docs"]
@@ -133,7 +133,7 @@ mainSections = ["docs"]
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "OpenCCA" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/opencca/thulite", "https://fosstodon.org/@thulite"]
-    images = ["cover.png"] # ["cover.png"] (default)
+    images = ["cover.jpg"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
