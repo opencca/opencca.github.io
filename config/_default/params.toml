@@ -1,6 +1,6 @@
 # Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
+title = "OpenCCA"
+description = "An Open Framework to Enable Arm CCA Research"
 images = ["cover.png"]
 
 # mainSections
