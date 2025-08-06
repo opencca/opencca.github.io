@@ -16,6 +16,8 @@ seo:
 
 We host a [Github Runner](https://github.com/opencca/ci-scripts) that provides reproducible builds.
 
+You find pre-built assets in [opencca-releases](https://github.com/opencca/opencca-releases).
+
 ### Tools
 | Repository                                                            | Description                                  | Build Status |
 |-----------------------------------------------------------------------|----------------------------------------------|--------------|
