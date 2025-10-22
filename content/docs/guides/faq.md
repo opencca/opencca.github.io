@@ -65,15 +65,13 @@ Some pointers to change this:
 {{< details "Q: I want to boot from SDMMC instead of eMMC" >}}  
 _October 2025_
 
-We recommend booting from eMMC. Compatible eMMC chips cost around 10 USD.
-
-https://de.aliexpress.com/item/1005007003959424.html?spm=a2g0o.order_list.order_list_main.35.4f2418023Ja2xZ&gatewayAdapt=glo2deu
+We recommend booting from eMMC. Compatible eMMC chips cost around 10 USD:
+- [Ali Express](https://de.aliexpress.com/item/1005007003959424.html?spm=a2g0o.order_list.order_list_main.35.4f2418023Ja2xZ&gatewayAdapt=glo2deu)
 
 The prebuilt image used for the SysTEX evaluation boots from eMMC. In this build, the kernel option `OPENCCA_HW_DEBUG=y` is enabled, which disables SDMMC and enables the SWD interface. Since both SD and hardware debugging share the same pins you can either do hardware debugging or use SD card at the same time.
 
 You can see the relevant changes here:
-
-https://github.com/opencca/linux/compare/d8e18330ec8e59bc5262368961cd16aa044e0195...6d37f0d15c317804ceeb2d50354695d35783f0f6#diff-00edfaa8eb3606d42da7fb68c09687cd611602038ff3aa55436b2742d2d69bd2R3
+- (Diff)[https://github.com/opencca/linux/compare/d8e18330ec8e59bc5262368961cd16aa044e0195...6d37f0d15c317804ceeb2d50354695d35783f0f6#diff-00edfaa8eb3606d42da7fb68c09687cd611602038ff3aa55436b2742d2d69bd2R3]
 
 To fix this, you either:
 - boot from eMMC
