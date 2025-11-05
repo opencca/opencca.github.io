@@ -89,6 +89,6 @@
 #   weight = 10
 
 # [[footer]]
-#   name = "Terms of Service"
-#   url = "/terms/"
+#   name = "Contact: andrin.bertschi@inf.ethz.ch"
+#   url = "mailto:andrin.bertschi@inf.ethz.ch"
 #   weight = 20
