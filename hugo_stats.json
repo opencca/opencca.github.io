@@ -5,12 +5,15 @@
       "article",
       "aside",
       "base",
+      "blockquote",
       "body",
       "br",
       "button",
       "circle",
+      "code",
       "details",
       "div",
+      "em",
       "figcaption",
       "figure",
       "footer",
@@ -304,7 +307,8 @@
       "searchToggleMobile",
       "socialMenu",
       "toc",
-      "tools"
+      "tools",
+      "what-we-are-working-on-next"
     ]
   }
 }

@@ -79,3 +79,27 @@ To fix this, you either:
   
 {{< /details >}}
 
+{{< details "Q: What is the MOSFET circuit used for?" >}}  
+_November 2025_
+
+I read there is a MOSFET circuit for flashing, do I need this?
+
+>
+> The RK3588 connects over ethernet to a
+> flash server (Raspberry Pi). It controls a MOSFET and power circuit to
+> flash new firmware and exposes UART access.
+> 
+
+The MOSFET circuit is not strictly necessary. You can flash the firmware
+manually by pressing the physical button on the SoC. However, if you plan to do
+this thousands of times (like we did during the initial bring up), it may be
+worth automating this. We soldered a simple circuit to the board to bypass the
+physical button, using a MOSFET as a programmable switch controlled via a
+Raspberry Pi GPIO pin.
+
+You can find plenty of guides online. It is a quick job once you have the parts
+(MOSFET, 10kΩ, 220Ω resistors) and should be doable in a few minutes of
+soldering. A google search for "MOSFET as a switch" should give you the gist
+what to do.
+  
+{{< /details >}}
