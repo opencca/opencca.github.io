@@ -49,7 +49,6 @@ We typically order Rock 5B boards from Aliexpress and it takes around 3 weeks un
 
 {{< /details >}}
 
-
 {{< details "Q: How can I use more than 4GB of RAM on the Rock 5B?" >}}
 _August 2025_
 
@@ -62,7 +61,7 @@ Some pointers to change this:
 {{< /details >}}
 
 
-{{< details "Q: I want to boot from SDMMC instead of eMMC" >}}  
+{{< details "Q: I want to boot from SDMMC instead of eMMC" >}}
 _October 2025_
 
 We recommend booting from eMMC. Compatible eMMC chips cost around 10 USD:
@@ -76,10 +75,10 @@ You can see the relevant changes here:
 To fix this, you either:
 - boot from eMMC
 - or rebuild the kernel with `OPENCCA_HW_DEBUG=n`, and if needed, adjust the kernel cmd line arguments so the rootfs is loaded from SDMMC instead.
-  
+
 {{< /details >}}
 
-{{< details "Q: What is the MOSFET circuit used for?" >}}  
+{{< details "Q: What is the MOSFET circuit used for?" >}}
 _November 2025_
 
 I read there is a MOSFET circuit for flashing, do I need this?
@@ -88,7 +87,7 @@ I read there is a MOSFET circuit for flashing, do I need this?
 > The RK3588 connects over ethernet to a
 > flash server (Raspberry Pi). It controls a MOSFET and power circuit to
 > flash new firmware and exposes UART access.
-> 
+>
 
 The MOSFET circuit is not strictly necessary. You can flash the firmware
 manually by pressing the physical button on the SoC. However, if you plan to do
@@ -101,5 +100,22 @@ You can find plenty of guides online. It is a quick job once you have the parts
 (MOSFET, 10kΩ, 220Ω resistors) and should be doable in a few minutes of
 soldering. A google search for "MOSFET as a switch" should give you the gist
 what to do.
-  
+
+{{< /details >}}
+
+
+{{< details "Q: What about Support for Orange Pi 5 Plus or other RK3588 variants?" >}}
+
+_December 2025_
+
+We chose the Rock 5B as the reference platform because its Linux kernel support
+was more up to date at the time of kickoff. Although the Orange Pi 5 Plus uses
+the same SoC, you will likely need to adjust MMIO offsets (either in code or the
+device tree) in TFA and U-Boot, and possibly find or adapt a suitable Linux
+kernel for better peripheral support. [Collabora](https://www.collabora.com/) does upstream work for RK3588 in
+Linux, so they may have merged better support for other variants of the RK3588
+by now.
+
+Feel invited to send patches to OpenCCA.
+
 {{< /details >}}
