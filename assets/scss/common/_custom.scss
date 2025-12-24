@@ -1,1 +1,13 @@
 // Put your custom SCSS code here
+/* Smaller blockquotes */
+blockquote {
+  font-size: 0.95em;   /* try 0.9em */
+  line-height: 1.4;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+blockquote p {
+  font-size: inherit;
+  margin: 0.25rem 0;
+}
