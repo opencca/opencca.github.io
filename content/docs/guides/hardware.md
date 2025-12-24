@@ -37,10 +37,10 @@ seo:
 >
 
 This page lists hardware for two common setups:
-1. [Minimal setup (required)]():
+1. [Minimal setup (required)](#minimal-setup):
 Enough to run OpenCCA on an RK3588 ROCK 5b
 
-2. [Box with Flashserver (optional)]():
+2. [Box with Flashserver (optional)](#automation-box):
 A small lab setup that supports remote UART access, automated flashing, and power cycling.
 
 ## Minimal setup
