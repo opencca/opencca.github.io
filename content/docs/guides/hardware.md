@@ -38,7 +38,7 @@ seo:
 
 This page lists hardware for two common setups:
 1. [Minimal setup (required)](#minimal-setup):
-Enough to run OpenCCA on an RK3588 ROCK 5b
+Enough to run OpenCCA on an RK3588 ROCK 5B
 
 2. [Box with Flashserver (optional)](#automation-box):
 A small lab setup that supports remote UART access, automated flashing, and power cycling.
@@ -79,7 +79,7 @@ minicom -w -t xterm -l -R UTF-8 -D /dev/ttyUSB0 rock5 -C ./minicom.txt
 
 
 
-## Automation box
+## Automation Box
 
 For automated power cycling and flashing, we built a small box setup.
 
@@ -180,7 +180,7 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 
 | Product | Link | Comment |
 | --- | --- | --- |
-| Prototype board (perfboard) | [AliExpress](https://de.aliexpress.com/item/1005007204340724.html?spm=a2g0o.order_list.order_list_main.58.3e151802BGaqce&gatewayAdapt=glo2deu) | For a Maskrom automation circuit. |
+| Circuit board | [AliExpress](https://de.aliexpress.com/item/1005007204340724.html?spm=a2g0o.order_list.order_list_main.58.3e151802BGaqce&gatewayAdapt=glo2deu) | For a Maskrom automation circuit. |
 | MOSFET IRLZ44N | [AliExpress](https://www.aliexpress.com/store/1102711404) |  |
 | 10kΩ resistor + 220Ω resistor |  |  |
 | Cables | [AliExpress](https://de.aliexpress.com/item/1005003252824475.html?spm=a2g0o.order_list.order_list_main.113.3e151802BGaqce&gatewayAdapt=glo2deu) |
