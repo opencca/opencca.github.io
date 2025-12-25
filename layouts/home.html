@@ -241,6 +241,19 @@
       </div>
     </div>
 
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{ with .Site.GetPage "users.md" }}
+          {{ .Content }}
+          <i style="color: gray;">This list highlights known users of OpenCCA. If your work uses OpenCCA, you can add your publication or group by <a href="https://github.com/opencca/opencca.github.io/blob/opencca/main/content/users.md" style="color: gray; text-decoration: underline;" >editing the users file on GitHub</a>.</i>
+        {{ end }}
+      </div>
+    </div>
+</div>
+</section>
+<section class="section section-md bg-light ">
+  <div class="container">
+
     <!-- Logo + Authors -->
     <div class="row justify-content-center align-items-center mt-4 text-center text-md-start">
       <!-- Logo -->
