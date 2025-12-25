@@ -56,8 +56,17 @@ Before the normal world hypervisor boots, TFA also initializes **BL33**, which s
 
 Once **BL33** has loaded, it searches for the hypervisor in eMMC, SD card, or NVMe storage and executes it, thereby completing the boot process.
 
+#### BL2
+- [U-Boot SPL](https://github.com/opencca/u-boot)
+
+#### BL31
+- [Arm Trusted Firmware A](https://github.com/opencca/arm-trusted-firmware)
+
 #### BL32
 Although Radxa ships a binary blob of OP-TEE, there is upstream support for the RK3588
 [https://optee.readthedocs.io/en/latest/general/platforms.html](https://optee.readthedocs.io/en/latest/general/platforms.html)
 
 We have currently not looked into OP-TEE. Interested in trusted Apps and the secure world? Reach out and bootstrap OP-TEE for OpenCCA.
+
+#### BL33
+- [U-Boot Proper](https://github.com/opencca/u-boot)
