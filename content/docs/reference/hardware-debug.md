@@ -40,8 +40,8 @@ sudo busybox devmem 0xFD5F8098 w 0xFF005500
 sudo busybox devmem 0xFD5F8098 w
 ```
 
+You find more information on [wiring in our forum discussion](https://forum.radxa.com/t/debug-rock5b-rk3588-with-swd-jtag/25115).
 
 - [Datasheets](docs/reference/datasheets/)
 - [SD Card breakout](https://de.aliexpress.com/item/1005006267829221.html?spm=a2g0o.order_list.order_list_main.340.4ed918025epvAS&gatewayAdapt=glo2deu)
-- [Pin Connections and Config files](https://forum.radxa.com/t/debug-rock5b-rk3588-with-swd-jtag/25115)
 - `CONFIG_OPENCCA_HW_DEBUG` in [opencca-linux](https://github.com/opencca/linux)
