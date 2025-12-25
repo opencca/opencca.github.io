@@ -11,3 +11,21 @@ blockquote p {
   font-size: inherit;
   margin: 0.25rem 0;
 }
+
+
+.hugo-image .hugo-image-500 {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 520px) {
+  .hugo-image {
+    width: 450px;
+  }
+
+  .hugo-image-500 {
+    width: 500px;
+  }
+}

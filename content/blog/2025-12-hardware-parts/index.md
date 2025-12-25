@@ -18,15 +18,13 @@ seo:
 ---
 
 <style>
-
-
 .box-thumb img,
 img.box-thumb {
-  max-width: 500px;
+  width: auto;
+  max-width: min(500px, 100%);
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 </style>
 
@@ -36,14 +34,13 @@ We updated the site with a purchase list to build the opencca box.
 - [opencca-box](https://github.com/opencca/opencca-box)
 
 
-
-{{< img class="box-thumb" src="images/box/box1.jpg" width="200" alt="box1" >}}
-
-<br />
-
-{{< img class="box-thumb" src="images/box/box2.jpg" width="200" alt="box2" >}}
+{{< img class="hugo-image" src="images/box/box1.jpg" width="200" alt="box1" >}}
 
 <br />
 
-{{< img class="box-thumb" src="images/box/box3.jpg" width="200" alt="box3" >}}
+{{< img class="hugo-image" src="images/box/box2.jpg" width="200" alt="box2" >}}
+
+<br />
+
+{{< img class="hugo-image" src="images/box/box3.jpg" width="200" alt="box3" >}}
 

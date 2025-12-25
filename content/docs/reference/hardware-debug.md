@@ -27,8 +27,8 @@ The table below lists the IO memory to enable hardware debugging on the SoC. We 
 
 | **Bus** | **Address** | **Value** |
 |---|---|---|
-| SYS_GRF_SOC_CON6 | 0xFD58C318 | 0x40004000 |
-| BUS_IOC_GPIO4D_IOMUX_SEL_L | 0xFD5F8098 | 0xFF005500 |
+| SYS_GRF SOC_CON6 | 0xFD58C318 | 0x40004000 |
+| BUS_IOC_GPIO4D IOMUX_SEL_L | 0xFD5F8098 | 0xFF005500 |
 
 ```sh
 # Run on RK3588 hypervisor after boot

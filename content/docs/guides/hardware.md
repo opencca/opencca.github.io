@@ -74,7 +74,7 @@ For automated power cycling and flashing, we built a small box setup.
 
 
 
-{{< img src="images/opencca5.png" width="100" alt="Automation box overview" >}}
+{{< img src="images/opencca5.png" class="" width="100" alt="Automation box overview" >}}
 
 <br />
 
@@ -136,7 +136,7 @@ Optional enclosure parts to house the setup, including a power strip and fans.
 
 <br />
 
-{{< img src="images/opencca1.png" width="100" alt="Optional Box Enclosure" >}}
+{{< img src="images/opencca1.png" class="hugo-image-500" width="100" alt="Optional Box Enclosure" >}}
 
 
 | Product | Link | Comment |

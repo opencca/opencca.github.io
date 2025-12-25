@@ -14,18 +14,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-<style>
-
-
-.box-thumb img,
-img.box-thumb {
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 
 ## Bootflow
@@ -35,7 +23,7 @@ The firmware boot process begins when the SoC is powered on and continues until 
 The boot flow is divided into multiple stages, all executed by the primary CPU.
 The SoC includes 7 additional secondary cores that are later enabled during the normal world hypervisor boot.
 
-{{< img class="box-thumb" src="images/bootflow_cca.png" width="300" alt="Bootflow OpenCCA" >}}
+{{< img class="hugo-image"  src="images/bootflow_cca_white.png" width="300" alt="Bootflow OpenCCA" >}}
 > Figure: Bootflow RK3588 with OpenCCA. Gray: propritary code, Orange: OpenCCA changes.
 <br />
 
@@ -64,7 +52,7 @@ Once **BL33** has loaded, it searches for the hypervisor in eMMC, SD card, or NV
 
 #### BL32
 Although Radxa ships a binary blob of OP-TEE, there is upstream support for the RK3588
-[https://optee.readthedocs.io/en/latest/general/platforms.html](https://optee.readthedocs.io/en/latest/general/platforms.html)
+[https://optee.readthedocs.io/](https://optee.readthedocs.io/en/latest/general/platforms.html)
 
 We have currently not looked into OP-TEE. Interested in trusted Apps and the secure world? Reach out and bootstrap OP-TEE for OpenCCA.
 

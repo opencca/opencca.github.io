@@ -14,24 +14,13 @@ seo:
   noindex: false # false (default) or true
 ---
 
-<style>
-
-.box-thumb img,
-img.box-thumb {
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 ## Layout
 
 We load the firmware at the beginning of the first DRAM.
 <!-- TODO: There is a typo in the comment in the source, fix that first -->
 
-{{< img class="box-thumb" src="images/memorylayout1.png" width="300" alt="Memory Layout" >}}
+{{< img class="hugo-image" src="images/memorylayout1.png" width="300" alt="Memory Layout" >}}
 > Figure: Memory region DRAM Bank 1. Color: Firmware memory. Not to scale.
 <br />
 
