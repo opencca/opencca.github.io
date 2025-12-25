@@ -3,7 +3,7 @@ title: "Best Paper Award"
 description: ""
 date: 2025-07-04T16:27:22+02:00
 date: 2025-07-04T16:27:22+02:00
-draft: true
+draft: false
 weight: 50
 categories: []
 tags: []
@@ -18,5 +18,6 @@ seo:
 ---
 
 We’re happy to announce that our SysTEX'25 submission has received the best paper award.
+We thank everyone who supported us on this journey. Stay tuned for more updates!
 
 

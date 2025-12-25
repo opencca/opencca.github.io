@@ -32,9 +32,11 @@ seo:
 }
 </style>
 
+
 >
-> This page is still work in progress. Found a mistake or a better explaination? [File a pull request on GitHub.](https://github.com/opencca/opencca.github.io/blob/opencca/main/content/docs/guides/hardware.md)
->
+> _This page is still work in progress. Improve the site by [filing a pull request on GitHub.](https://github.com/opencca/opencca.github.io/blob/opencca/main/content/docs/guides/hardware.md)_
+> _Only Switzerland purchase links so far; please add international links (Amazon/AliExpress/etc.) via a PR._
+
 
 This page lists hardware for two common setups:
 1. [Minimal setup (required)](#minimal-setup):
@@ -151,7 +153,7 @@ Optional enclosure parts to house the setup, including a power strip and fans.
 
 ### Maskrom MOSFET
 
-The MOSFET circuit is not strictly necessary. You can flash the firmware manually by pressing the physical button on the SoC. However, if you plan to do this thousands of times (like we did during the initial bring up), it may be worth automating this. We soldered a simple circuit to the board to bypass the physical button, using a MOSFET as a programmable switch controlled via a Raspberry Pi GPIO pin.
+The MOSFET circuit is not strictly necessary. You can flash the firmware manually by pressing the gphysical button on the SoC. However, if you plan to do this thousands of times (like we did during the initial bring up), it may be worth automating this. We soldered a simple circuit to the board to bypass the physical button, using a MOSFET as a programmable switch controlled via a Raspberry Pi GPIO pin.
 
 **Wiring (example GPIO17):**
 - GPIO17 → **220Ω** → MOSFET **Gate (G)**

@@ -1,10 +1,10 @@
 ---
 title: "Website is online!"
 description: ""
-date: 2025-08-04T16:27:22+02:00
+date: 2025-07-17T16:27:22+02:00
 lastmod: 2025-08-04T16:27:22+02:00
 draft: false
-weight: 50
+weight: 100
 categories: []
 tags: []
 contributors: []
