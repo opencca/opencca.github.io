@@ -143,6 +143,8 @@ Optional enclosure parts to house the setup, including a power strip and fans.
 | Plastic box | [Digitec (CH)](https://www.digitec.ch/en/s1/product/kis-w-375-x-25-x-23-cm-15-l-storage-boxes-13405854) | Optional enclosure. 37.5 x 25 x 23 cm, 15 l or larger. |
 | Step-up converter (optional) | [AliExpress](https://de.aliexpress.com/item/1005008374772473.html) | Optional, e.g. for quieter fan control. |
 | 12 V or 5 V fan (optional) | generic | Optional cooling. |
+| Glue, tape, wood or cardboard and rubber bands | generic | For assembly, [see pictures](https://github.com/opencca/opencca-box) |
+
 </div>
 
 - [See 3D models](#3d-print-models)
