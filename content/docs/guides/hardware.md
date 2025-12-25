@@ -166,7 +166,7 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 | Product | Link | Comment |
 | --- | --- | --- |
 | Circuit board | [AliExpress](https://de.aliexpress.com/item/1005007204340724.html?spm=a2g0o.order_list.order_list_main.58.3e151802BGaqce&gatewayAdapt=glo2deu) | For a Maskrom automation circuit. |
-| MOSFET IRLZ44N | [AliExpress](https://www.aliexpress.com/store/1102711404) |  |
+| MOSFET IRLZ44N | [AliExpress](https://de.aliexpress.com/item/1005007084578589.html?spm=a2g0o.order_list.order_list_main.365.5db418020aPOaU&gatewayAdapt=glo2deu) |  |
 | 10kΩ resistor + 220Ω resistor |  |  |
 | Cables | [AliExpress](https://de.aliexpress.com/item/1005003252824475.html?spm=a2g0o.order_list.order_list_main.113.3e151802BGaqce&gatewayAdapt=glo2deu) |
 
