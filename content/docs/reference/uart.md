@@ -14,6 +14,19 @@ seo:
   noindex: false # false (default) or true
 ---
 
+Connect to TX, RX and GND to the TTL usb adapter (we need 3.3V).
+
+
+Pins odd | Pin | Pin | Pins even
+------------------------|-----|-----|-----------------------
+Vref (3.3V)             | 1   | 2   | 5V
+GPIO                    | 3   | 4   | 5V
+GPIO                    | 5   | **6**   | **GND**
+GPIO                    | 7   | **8**   | **UART_TX**
+GND                     | 9   | **10**  | **UART_RX**
+...                     | ... | ... | ...
+
+
 ```bash
 #!/bin/bash
 cat > $HOME/.minirc.rock5b <<- CMD
@@ -27,6 +40,6 @@ CMD
 minicom -w -t xterm -l -R UTF-8 -D /dev/ttyUSB0 rock5 -C ./minicom.txt
 
 ```
-- [Connect to board with Minicom](https://github.com/opencca/opencca-flash/blob/opencca/main/minicom.sh)
 - [Connecting Serial Console](https://wiki2.radxa.com/Rock5/dev/serial-console)
+- [Connect to board with Minicom](https://github.com/opencca/opencca-flash/blob/opencca/main/minicom.sh)
 
