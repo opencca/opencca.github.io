@@ -52,31 +52,12 @@ To get started with OpenCCA, you need the parts below.
 | Radxa ROCK 5B (RK3588) | [AliExpress](https://de.aliexpress.com/item/1005007507141308.html) | Recommended: 16 GB RAM |
 | eMMC (16 GB+) <br /> Radxa eMMC | [AliExpress](https://de.aliexpress.com/item/1005007003959424.html) | The microSD slot is multiplexed with SWD, so eMMC is recommended. See: [Info on SD card](https://github.com/opencca/opencca-flash/issues/1) |
 | Power supply <br /> Anker Nano II 65W | [Amazon (DE)](https://www.amazon.de/dp/B094QKV6S8) | Not every USB-C power supply works reliably. See: [Radxa power supply discussion](https://wiki2.radxa.com/Rock5/5b/power_supply) |
-| USB to TTL adapter (3.3 V) | [AliExpress](https://de.aliexpress.com/item/32668866076.html?spm=a2g0o.order_list.order_list_main.203.60565c5fXlMcqC&gatewayAdapt=glo2deu) | A CH340G (3.3 V) (Baudrate 1.5 Mbps) |
+| USB to TTL adapter (3.3 V) | [AliExpress](https://de.aliexpress.com/item/32668866076.html?spm=a2g0o.order_list.order_list_main.203.60565c5fXlMcqC&gatewayAdapt=glo2deu) | A CH340G (3.3 V) (Baudrate 1.5 Mbps) See: [Connect to UART](/docs/reference/connect-to-uart)|
 | USB-C cable| generic | Cable for power to RK3588 |
 
 </div>
 
 Once you purchased the parts, [build and flash the firmware](https://github.com/opencca/opencca-build)
-
-### Connecting to Serial Console
-
-```bash
-#!/bin/bash
-cat > $HOME/.minirc.rock5b <<- CMD
-pu baudrate         1500000
-pu bits             8
-pu parity           N
-pu stopbits         1
-pu rtscts           No
-CMD
-
-minicom -w -t xterm -l -R UTF-8 -D /dev/ttyUSB0 rock5 -C ./minicom.txt
-
-```
-- [Connect to board with Minicom](https://github.com/opencca/opencca-flash/blob/opencca/main/minicom.sh)
-- [Connecting Serial Console](https://wiki2.radxa.com/Rock5/dev/serial-console)
-
 
 
 ## Automation Box
@@ -191,7 +172,8 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 </div>
 
 ## 3D Print Models
-- [Rock 5B Case](https://www.printables.com/model/780780-rock-5b-case). We only use bottom part.
-- [3D Models](https://github.com/opencca/opencca-box)
+
+You find instructions on how to obtain and print the 3D models in the
+[opencca-box](https://github.com/opencca/opencca-box) repository.
 
 

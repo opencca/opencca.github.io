@@ -1,10 +1,10 @@
 ---
-title: "Datasheets"
+title: "Pictures"
 description: ""
 summary: ""
 date: 2025-08-01T16:04:48+02:00
 lastmod: 2025-01-07T16:04:48+02:00
-draft: false
+draft: true
 weight: 200
 toc: true
 seo:
@@ -14,5 +14,8 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<!-- {{< img src="images/box/box0" width="300" alt="box" >}}
+{{< img src="images/box/box1" width="300" alt="box" >}}
+{{< img src="images/box/box2" width="300" alt="box" >}} -->
 
-[https://github.com/opencca/rk3588-TRM-and-Datasheet](https://github.com/opencca/rk3588-TRM-and-Datasheet)
+<!-- {{< img src="images/opencca1.png" width="100" alt="Optional Box Enclosure" >}} -->
