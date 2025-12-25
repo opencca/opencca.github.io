@@ -14,6 +14,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Follow the [build instructions](https://github.com/opencca/opencca-build) to build and run OpenCCA. See the [FAQ](/docs/guides/faq/) for common pitfalls.
+Follow the [build instructions](https://github.com/opencca/opencca-build) on GitHub to build and run OpenCCA. See the [FAQ](/docs/guides/faq/) for common pitfalls.
 
-[{{< img src="images/getting-started-image.png" width="300" alt="Getting started" >}}](https://github.com/opencca/opencca-build)
+[{{< img src="images/getting-started-image.png" class="hugo-image-500" width="300" alt="Getting started" >}}](https://github.com/opencca/opencca-build)
