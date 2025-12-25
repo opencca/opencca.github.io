@@ -88,7 +88,7 @@
 #   url = "/privacy/"
 #   weight = 10
 
-[[footer]]
-  name = "Contact: andrin.bertschi@inf.ethz.ch"
-  url = "mailto:andrin.bertschi@inf.ethz.ch"
-  weight = 20
+# [[footer]]
+#   name = "Contact: andrin.bertschi@inf.ethz.ch"
+#   url = "mailto:andrin.bertschi@inf.ethz.ch"
+#   weight = 20
