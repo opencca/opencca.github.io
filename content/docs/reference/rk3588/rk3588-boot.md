@@ -1,5 +1,5 @@
 ---
-title: "RK3588 Boot"
+title: "Bootflow"
 description: ""
 summary: ""
 date: 2025-08-01T16:04:48+02:00
@@ -16,7 +16,7 @@ seo:
 
 
 
-## Bootflow
+## RK3588 Boot
 
 The firmware boot process begins when the SoC is powered on and continues until control is handed over to the untrusted hypervisor.
 

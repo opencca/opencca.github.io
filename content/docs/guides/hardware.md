@@ -54,7 +54,7 @@ To get started with OpenCCA, you need the parts below.
 | Radxa ROCK 5B (RK3588) | [AliExpress](https://de.aliexpress.com/item/1005007507141308.html) | Recommended: 16 GB RAM |
 | eMMC (16 GB+) <br /> Radxa eMMC | [AliExpress](https://de.aliexpress.com/item/1005007003959424.html) | The microSD slot is multiplexed with SWD, so eMMC is recommended. See: [Info on SD card](https://github.com/opencca/opencca-flash/issues/1) |
 | Power supply <br /> Anker Nano II 65W | [Amazon (DE)](https://www.amazon.de/dp/B094QKV6S8) | Not every USB-C power supply works reliably. See: [Radxa power supply discussion](https://wiki2.radxa.com/Rock5/5b/power_supply) |
-| USB to TTL adapter (3.3 V) | [AliExpress](https://de.aliexpress.com/item/32668866076.html?spm=a2g0o.order_list.order_list_main.203.60565c5fXlMcqC&gatewayAdapt=glo2deu) | A CH340G (3.3 V) (Baudrate 1.5 Mbps) See: [Connect to UART](/docs/reference/connect-to-uart)|
+| USB to TTL adapter (3.3 V) | [AliExpress](https://de.aliexpress.com/item/32668866076.html?spm=a2g0o.order_list.order_list_main.203.60565c5fXlMcqC&gatewayAdapt=glo2deu) | A CH340G (3.3 V) (Baudrate 1.5 Mbps) See: [Connect to UART](/docs/reference/rk3588/connect-to-uart)|
 | USB-C cable| generic | Cable for power to RK3588 |
 
 </div>

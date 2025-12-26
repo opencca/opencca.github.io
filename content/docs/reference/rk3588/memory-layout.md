@@ -1,5 +1,5 @@
 ---
-title: "RK3588 Memory"
+title: "Memory Layout"
 description: ""
 summary: ""
 date: 2025-08-01T16:04:48+02:00
