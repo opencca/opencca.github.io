@@ -173,7 +173,7 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 | Cables | [AliExpress](https://de.aliexpress.com/item/1005003252824475.html?spm=a2g0o.order_list.order_list_main.113.3e151802BGaqce&gatewayAdapt=glo2deu) | [Amazon](https://a.co/d/iTy9K27) | Breadboard jumpers. |
 | LED | - | [Amazon](https://a.co/d/2z4iQa8) | Optional status indicator. |
 
-- See scripts in [opencca-flash/board/maskrom](https://github.com/opencca-flash/tree/opencca/main/board/maskrom)
+- See scripts in [opencca-flash/board/maskrom](https://github.com/opencca/opencca-flash/tree/opencca/main/board/maskrom)
 - [Entering Maskrom Mode (Radxa)](https://docs.radxa.com/en/rock5/rock5b/low-level-dev/install-os/rkdevtool_maskrom)
 
 </div>
@@ -182,3 +182,4 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 
 You find instructions on how to obtain and print the 3D models in the
 [opencca-box](https://github.com/opencca/opencca-box) repository.
+
