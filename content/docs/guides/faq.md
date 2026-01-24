@@ -119,3 +119,12 @@ by now.
 Feel invited to send patches to OpenCCA.
 
 {{< /details >}}
+
+
+{{< details "Q: I bought the RK3588 Rock 5B with 32 GB instead of 16 GB. It does not Boot." >}}
+
+_January 2026_
+
+The [SysTeX release](https://github.com/opencca/opencca-releases/releases/tag/opencca/systex25) works for a Rock 5B Model with 16 GB. See [these changes](https://github.com/opencca/opencca-flash/issues/2) to the Firmware to run opencca on the 32 GB Model.
+
+{{< /details >}}
