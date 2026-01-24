@@ -133,7 +133,7 @@ The [SysTeX release](https://github.com/opencca/opencca-releases/releases/tag/op
 
 _January 2026_
 
-The [SysTeX release]() root filesystem for the RK3588 includes a convenience script to launch realm VMs:
+The [SysTeX release](https://github.com/opencca/opencca-releases/releases/tag/opencca/systex25) root filesystem for the RK3588 includes a convenience script to launch realm VMs:
 
 ```sh
 sudo lkvm run  \
