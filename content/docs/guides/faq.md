@@ -128,3 +128,56 @@ _January 2026_
 The [SysTeX release](https://github.com/opencca/opencca-releases/releases/tag/opencca/systex25) works for a Rock 5B Model with 16 GB. See [these changes](https://github.com/opencca/opencca-flash/issues/2) to the Firmware to run opencca on the 32 GB Model.
 
 {{< /details >}}
+
+{{< details "Q: How do I run a realm VM on several cores?" >}}
+
+_January 2026_
+
+The [SysTeX release]() root filesystem for the RK3588 includes a convenience script to launch realm VMs:
+
+```sh
+sudo lkvm run  \
+  --realm --restricted_mem \ 
+  --disable-sve -c 1 -m 100m -p "debug loglevel=8"
+```
+
+For benchmarking, we preconfigured the host kernel to isolate the cores with `isolcpus=`.
+
+
+`Isolcpus` disables normal scheduler load balancing on the isolated CPUs. As a result, all `kvm-vcpu-*` threads can end up on the same physical core, degrading performance (and sometimes triggering timer/RCU warnings under load).
+
+**Solution**: keep `isolcpus`, but explicitly pin each kvm-vcpu-* thread to a dedicated core after the CVM starts.
+
+
+```sh
+# Example host kernel cmdline (hardware-debugging friendly):
+rootwait maxcpus=4 isolcpus=1,2,3 nohlt cpuidle.off=1 \
+rcupdate.rcu_cpu_stall_suppress=1 nmi_watchdog=0 \
+rcutree.rcu_cpu_stall_timeout=600 rcu_nocb_poll rcu_nocbs=1-3
+```
+
+```sh
+# Run CVM on 2 cores
+function pin {
+  sleep 4
+  local pid=$(pgrep -n lkvm)
+
+  # ps -T -p "$pid" -o tid,psr,comm
+  sudo taskset -pc 1 $(ps -T -p "$pid" -o tid=,comm= | awk '$2=="kvm-vcpu-0"{print $1}')
+  sudo taskset -pc 2 $(ps -T -p "$pid" -o tid=,comm= | awk '$2=="kvm-vcpu-1"{print $1}')
+}
+
+pin &
+
+sudo lkvm run  --vcpu-affinity 1,2 \
+  --realm --restricted_mem --disable-sve \
+  -c 2 -m 512m -p "debug loglevel=8 ip=off"
+```
+
+This explicitly pins each vCPU thread to a dedicated physical core after the VM starts, ensuring the realm VM actually runs on multiple cores even with `isolcpus` enabled.
+
+
+Related:
+- [`CONFIG_BOOTARGS_OVERWRITE` in U-Boot](https://github.com/opencca/u-boot/blob/a515a10c2a36772161b5653961bc25247a9b6c32/rk3588_fragment.config#L7)
+
+{{< /details >}}

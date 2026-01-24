@@ -320,6 +320,7 @@
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
       "openccaCarousel",
+      "optional-keep-iohelper-threads-off-isolated-cpus-housekeeping-on-cpu0",
       "physical-layout",
       "power-control",
       "query",
