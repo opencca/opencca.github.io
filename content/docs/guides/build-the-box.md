@@ -35,7 +35,7 @@ More assembly pictures can be found in the [opencca-box repository](https://gith
 ## Connecting the Parts
 **Dock (Anker PowerExpand)** connects to:
 - Pi (main USB-C host port)
-- Power supply (USB-C PD input)
+- Power supply (USB-C PD input) and smart plug
 - RK3588 (USB-C data port)
 
 **Raspberry Pi (Flash Server)** connects to:
@@ -49,8 +49,6 @@ More assembly pictures can be found in the [opencca-box repository](https://gith
 - Dock
 - USB-TTL via GPIO header
 - Breadboard/MOSFET wiring via GPIO header and soldering
-
-There is also a smart plug connected to the power plug that feeds power into USB-C PD into the Dock.
 
 ## Raspberry Pi
 
