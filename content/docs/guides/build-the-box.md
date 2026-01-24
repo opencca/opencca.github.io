@@ -56,7 +56,9 @@ There is also a smart plug connected to the power plug that feeds power into USB
 
 Install [Raspberry Pi OS](https://www.raspberrypi.com/software/) onto the SD card of the Pi.
 
-The Pi serves as the flashing and power management node. For firmware compilation, use a dedicated x86 machine and mount the build directories on the Pi via `sshfs`. This setup allows you to compile on a faster x86 machine while the Pi handles flashing operations.
+The Pi serves as the flashing and power management node. For firmware compilation, use a dedicated
+[x86 machine](https://github.com/opencca/opencca-build) and mount the build directories into the Pi via `sshfs`. This setup allows you to compile
+on a faster x86 machine while the Pi handles flashing operations.
 
 The docker container in [opencca-flash](https://github.com/opencca/opencca-flash) provides the required environment for the Pi.
 
@@ -64,7 +66,7 @@ The docker container in [opencca-flash](https://github.com/opencca/opencca-flash
 Connect the Raspberry Pi to the Ethernet switch using a short patch cable. Connect the switch to your network using a longer uplink cable. The RK3588 also connects to the same switch for network access.
 
 #### UART Console
-
+z
 Connect the USB-TTL adapter to a USB port on the Raspberry Pi. See [Connect to UART](/docs/reference/rk3588/connect-to-uart) for detailed pinout.
 
 #### Power Control
