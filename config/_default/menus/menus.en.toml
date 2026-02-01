@@ -33,10 +33,11 @@
   url = "/docs/guides/getting-started/"
   weight = 10
 
-#[[main]]
-#  name = "Showcase"
-#  url = "/docs/showcase/presentations/"
-#  weight = 20
+
+[[main]]
+ name = "Showcase"
+ url = "/docs/showcase/presentations/"
+ weight = 20
 
 [[main]]
   name = "Blog"

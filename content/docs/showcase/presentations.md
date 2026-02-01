@@ -21,3 +21,30 @@ seo:
 17. June 2025, San Francisco
 
 [https://www.confidentialcomputingsummit.com](https://www.confidentialcomputingsummit.com/e/ccs25)
+
+
+### Comparison to Software Simulation
+
+{{< youtube_jump
+  id="nQMTIyQ5XkU"
+  start="780"
+  img="/images/sim-vs-opencca.jpg"
+  alt="Execution Speed Simulation vs. OpenCCA"
+>}}
+<div style="margin-top: 10px"> </div>
+A demo comparing a compute-heavy benchmark running inside a Realm VM on Arm FVP versus the
+same workload on OpenCCA.
+
+### Mali G610 in CVM
+{{< youtube_jump
+  id="sp0Y_qHXsxw"
+  start="0"
+  img="/images/gpu-demo.jpg"
+  alt="Device Demo"
+>}}
+<div style="margin-top: 10px"> </div>
+A demo with a hypervisor-shared passthrough of the Mali G610 on OpenCCA.
+
+See source code in [Demo Repository](https://github.com/fosdem2026-opencca/demo/tree/master/demo-scripts).
+
+

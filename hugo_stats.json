@@ -290,7 +290,10 @@
       "video-container",
       "visually-hidden",
       "w-100",
-      "wrap"
+      "wrap",
+      "yt-jump",
+      "yt-jump__img",
+      "yt-jump__play"
     ],
     "ids": [
       "3d-print-models",
@@ -304,6 +307,7 @@
       "box",
       "build-and-flash",
       "buttonColorMode",
+      "comparison-to-software-simulation",
       "confidential-computing-summit-2025",
       "connecting-the-parts",
       "documentation-and-assets",
@@ -311,6 +315,7 @@
       "firmware",
       "helpers-and-utilities",
       "layout",
+      "mali-g610-in-cvm",
       "management-node-flash-server",
       "maskrom-mosfet",
       "minimal-setup",
@@ -320,8 +325,8 @@
       "offcanvasNavSection",
       "offcanvasNavSectionLabel",
       "openccaCarousel",
-      "optional-keep-iohelper-threads-off-isolated-cpus-housekeeping-on-cpu0",
       "physical-layout",
+      "pictures",
       "power-control",
       "query",
       "raspberry-pi",

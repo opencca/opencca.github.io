@@ -1,0 +1,17 @@
+{{- $id := .Get "id" -}}
+{{- $start := .Get "start" | default "0" -}}
+{{- $img := .Get "img" | default (printf "https://i.ytimg.com/vi/%s/maxresdefault.jpg" $id) -}}
+{{- $alt := .Get "alt" | default "Play video on YouTube" -}}
+
+{{- $href := printf "https://www.youtube.com/watch?v=%s&t=%ss" $id $start -}}
+
+<a class="yt-jump" href="{{ $href }}" target="_blank" rel="noopener noreferrer">
+  <img class="yt-jump__img" src="{{ $img | safeURL }}" alt="{{ $alt }}">
+  <span class="yt-jump__play" aria-hidden="true">
+    <!-- inline SVG play icon -->
+    <svg viewBox="0 0 68 48" width="68" height="48" focusable="false">
+      <path d="M66.52 7.85a8 8 0 0 0-5.63-5.66C55.9 0.8 34 0.8 34 0.8S12.1 0.8 7.11 2.19A8 8 0 0 0 1.48 7.85 83.3 83.3 0 0 0 0 24a83.3 83.3 0 0 0 1.48 16.15 8 8 0 0 0 5.63 5.66C12.1 47.2 34 47.2 34 47.2s21.9 0 26.89-1.39a8 8 0 0 0 5.63-5.66A83.3 83.3 0 0 0 68 24a83.3 83.3 0 0 0-1.48-16.15Z" opacity=".9"/>
+      <path d="M45 24 27 14v20z" fill="#fff"/>
+    </svg>
+  </span>
+</a>

@@ -20,6 +20,47 @@ blockquote p {
   width: 100%;
 }
 
+
+
+
+.yt-jump {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.yt-jump__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.yt-jump__play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.35));
+  opacity: 0.95;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.yt-jump:hover .yt-jump__play {
+  transform: translate(-50%, -50%) scale(1.03);
+  opacity: 1;
+}
+
+.yt-jump:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 6px;
+  border-radius: 14px;
+}
+
+
+
 @media (min-width: 520px) {
   .hugo-image {
     width: 450px;
@@ -29,3 +70,4 @@ blockquote p {
     width: 500px;
   }
 }
+
