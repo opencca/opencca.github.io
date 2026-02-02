@@ -162,6 +162,10 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 - MOSFET **Source (S)** → **GND** (Pi and ROCK5 share ground)
 - MOSFET **Drain (D)** → **BOOT_SARADC_IN0** on ROCK5
 
+<br />
+
+{{< img src="images/mosfet_circuit.png" class="hugo-image-500" width="100" alt="Optional Box Enclosure" >}}
+
 <div class="table-compact-col2 table-parts">
 
 | Product | Link | US Purchase Link | Comment |
