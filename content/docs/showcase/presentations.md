@@ -18,9 +18,7 @@ seo:
 
 <div class="video-container"><iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/nQMTIyQ5XkU?si=cPZ_DswBmbSdJ6KH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-17. June 2025, San Francisco
-
-[https://www.confidentialcomputingsummit.com](https://www.confidentialcomputingsummit.com/e/ccs25)
+17. June 2025, San Francisco, [Confidential Computing Summit 2025.](https://www.confidentialcomputingsummit.com/e/ccs25)
 
 
 ### Comparison to Software Simulation
@@ -47,4 +45,23 @@ A demo with a hypervisor-shared passthrough of the Mali G610 on OpenCCA.
 
 See source code in [Demo Repository](https://github.com/fosdem2026-opencca/demo/tree/master/demo-scripts).
 
+<!-- ### Hypervisor and CVM Boot with Debian
+{{< youtube_jump
+  id="sp0Y_qHXsxw"
+  start="0"
+  img="/images/opencca-shell.jpg"
+  alt="OpenCCA Shell"
+>}}
+<div style="margin-top: 10px"> </div>
+Demo showcasing hypervisor and CVM boot with Debian Trixie rootfs, Linux 6.12. -->
+
+### OpenCCA on Android
+{{< youtube_jump
+  id="oVJ_TZXiDmw"
+  start="0"
+  img="/images/opencca-on-android.jpg"
+  alt="OpenCCA on Android"
+>}}
+<div style="margin-top: 10px"> </div>
+Sneak peak of what is coming next. Currently unreleased. OpenCCA on RK3588 Android 14 (Linux 6.12).
 
