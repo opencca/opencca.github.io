@@ -14,5 +14,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
+You find a mirror of the technical reference manuals of the RK3588 at:
 
 [https://github.com/opencca/rk3588-TRM-and-Datasheet](https://github.com/opencca/rk3588-TRM-and-Datasheet)

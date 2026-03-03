@@ -26,7 +26,7 @@ We are exploring how OpenCCA can be leveraged in the **Android ecosystem**, enab
 We are building more **robust and reproducible tooling** to support benchmarking on OpenCCA across workloads.
 
 - **Accelerator support**
-We are improving **kernel driver support** to enable a wider range of accelerators within OpenCCA. This includes SMMU and OpenCL support for the Mali G610.
+We are improving **kernel driver support** to enable a wider range of accelerators within OpenCCA. This includes OpenCL support for the Mali G610.
 
 
 Want to help with this? Feel free to reach out.

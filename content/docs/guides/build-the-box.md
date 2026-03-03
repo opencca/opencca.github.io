@@ -64,7 +64,6 @@ The docker container in [opencca-flash](https://github.com/opencca/opencca-flash
 Connect the Raspberry Pi to the Ethernet switch using a short patch cable. Connect the switch to your network using a longer uplink cable. The RK3588 also connects to the same switch for network access.
 
 #### UART Console
-z
 Connect the USB-TTL adapter to a USB port on the Raspberry Pi. See [Connect to UART](/docs/reference/rk3588/connect-to-uart) for detailed pinout.
 
 #### Power Control
