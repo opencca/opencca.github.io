@@ -30,6 +30,23 @@ seo:
   margin-top: -30px;
   font-size: 1rem;
 }
+
+.img-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap; /* optional, helps on mobile */
+}
+
+.img-col {
+  flex: 1 1 45%;
+}
+
+.img-col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 </style>
 
 
@@ -164,7 +181,23 @@ The MOSFET circuit is not strictly necessary. You can flash the firmware manuall
 
 <br />
 
+
+<!-- <div>
 {{< img src="images/mosfet_circuit.png" class="hugo-image-500" width="100" alt="Optional Box Enclosure" >}}
+
+{{< img src="images/wiring2-rk3588.png" class="hugo-image-500" width="100" alt="Button wiring rk3588" >}}
+</div> -->
+
+
+<div class="img-row">
+  <div class="img-col">
+    <a href="/images/mosfet_circuit.png">{{< img src="images/mosfet_circuit.png" class="hugo-image-500" alt="Optional Box Enclosure" >}}</a>
+  </div>
+  <div class="img-col">
+    <a href="/images/wiring2-rk3588.png">{{< img src="images/wiring2-rk3588.png" class="hugo-image-500" alt="Button wiring rk3588" >}}</a>
+  </div>
+</div>
+Click images for large version. GND (green) is not strictly needed for circuit.
 
 <div class="table-compact-col2 table-parts">
 
