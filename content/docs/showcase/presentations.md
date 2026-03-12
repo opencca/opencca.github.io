@@ -13,25 +13,27 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-### Confidential Computing Summit 2025
-
-<div class="video-container"><iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/nQMTIyQ5XkU?si=cPZ_DswBmbSdJ6KH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-
-17. June 2025, San Francisco, [Confidential Computing Summit 2025.](https://www.confidentialcomputingsummit.com/e/ccs25)
-
-
 ### Open Confidental Computing Conference 2026
 {{< youtube_jump
   id="Yxmt4whwK7Q"
   start="0"
-  img="/images/oc3-cover.jpg"
+  img="/images/oc3-cover-2.jpg"
   alt="OC3 Talk"
 >}}
 <div style="margin-top: 10px"> </div>
 
 High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)  
-12. March 2026, Berlin, [OC3 2026](https://www.oc3.dev/), 
+12. March 2026, Berlin, [OC3 2026](https://www.oc3.dev/)
+
+
+
+
+### Confidential Computing Summit 2025
+
+<div class="video-container"><iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/nQMTIyQ5XkU?si=cPZ_DswBmbSdJ6KH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+17. June 2025, San Francisco, [CC Summit 2025.](https://www.confidentialcomputingsummit.com/e/ccs25)
+
 
 
 ### Comparison to Software Simulation
@@ -54,8 +56,8 @@ same workload on OpenCCA.
   alt="Device Demo"
 >}}
 <div style="margin-top: 10px"> </div>
-A demo with a hypervisor-shared passthrough of the Mali G610 on OpenCCA.
 
+A demo with a hypervisor-shared passthrough of the Mali G610 on OpenCCA.
 See source code in [Demo Repository](https://github.com/fosdem2026-opencca/demo/tree/master/demo-scripts).
 
 <!-- ### Hypervisor and CVM Boot with Debian
