@@ -32,7 +32,8 @@ High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)
 
 <div class="video-container"><iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/nQMTIyQ5XkU?si=cPZ_DswBmbSdJ6KH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-17. June 2025, San Francisco, [CC Summit 2025.](https://www.confidentialcomputingsummit.com/e/ccs25)
+Making Arm CCA Research Accessible, [Slides](/slides/2025-summit-opencca.pdf)  
+ 17. June 2025, San Francisco, [CC Summit 2025](https://www.confidentialcomputingsummit.com/e/ccs25)
 
 
 
