@@ -6,4 +6,4 @@
     languageISO = "EN"
     languageTag = "en-US"
     footer = '<a class="text-muted" href="https://sectrs.ethz.ch/">Secure and Trustworthy Systems Group</a>'
-    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
+    alertText = 'We are at the <a class="alert-link " href="/docs/showcase/presentations/#open-confidental-computing-conference-2026">Open Confidental Computing Conference 2026</a>'
