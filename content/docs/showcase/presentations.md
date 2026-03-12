@@ -21,6 +21,19 @@ seo:
 17. June 2025, San Francisco, [Confidential Computing Summit 2025.](https://www.confidentialcomputingsummit.com/e/ccs25)
 
 
+### Open Confidental Computing Conference 2026
+{{< youtube_jump
+  id="Yxmt4whwK7Q"
+  start="0"
+  img="/images/oc3-cover.jpg"
+  alt="OC3 Talk"
+>}}
+<div style="margin-top: 10px"> </div>
+
+High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)  
+12. March 2026, Berlin, [OC3 2026](https://www.oc3.dev/), 
+
+
 ### Comparison to Software Simulation
 
 {{< youtube_jump
