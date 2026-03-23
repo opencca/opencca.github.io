@@ -40,6 +40,6 @@ CMD
 minicom -w -t xterm -l -R UTF-8 -D /dev/ttyUSB0 rock5 -C ./minicom.txt
 
 ```
-- [Connecting Serial Console](https://wiki2.radxa.com/Rock5/dev/serial-console)
+- [Connecting Serial Console](https://docs.radxa.com/en/rock5/rock5b/radxa-os/serial)
 - [Connect to board with Minicom](https://github.com/opencca/opencca-flash/blob/opencca/main/minicom.sh)
 
