@@ -210,6 +210,7 @@ Click images for large version. GND (green) is not strictly needed for circuit.
 | Cables | [AliExpress](https://de.aliexpress.com/item/1005003252824475.html?spm=a2g0o.order_list.order_list_main.113.3e151802BGaqce&gatewayAdapt=glo2deu) | [Amazon](https://a.co/d/iTy9K27) | Breadboard jumpers. |
 | LED | - | [Amazon](https://a.co/d/2z4iQa8) | Optional status indicator. |
 
+- [More MOSFET wiring pictures](https://github.com/opencca/opencca-box/blob/main/mosfet-circuit)
 - See scripts in [opencca-flash/board/maskrom](https://github.com/opencca/opencca-flash/tree/opencca/main/board/maskrom)
 - [Entering Maskrom Mode (Radxa)](https://docs.radxa.com/en/rock5/rock5b/low-level-dev/install-os/rkdevtool_maskrom)
 
