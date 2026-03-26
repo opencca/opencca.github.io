@@ -16,6 +16,8 @@ seo:
 
 This FAQ collects frequently asked questions about using OpenCCA on different hardware and configurations.
 
+You find more questions, implemented features and fixed bugs in the [Github Project overview](https://github.com/orgs/opencca/projects/12).
+
 
 {{< details "Q: I want to run OpenCCA on Rock 5B+. What do I have to change?" >}}
 
