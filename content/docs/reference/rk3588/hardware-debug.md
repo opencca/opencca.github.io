@@ -20,6 +20,13 @@ We use a Micro SD breakout board that exposes the SD card pins, allowing us to c
 
 A successful connection requires four signals: `TCK`, `TMS`, `VTref`, and `GND`.
 
+<br />
+
+{{< img src="./opencca-hw-debugger.png" class="" width="100" alt=" DSTREAM-ST JTAG 20 connection" >}}
+
+<br />
+
+
 We used DSTREAM-ST v0197A and Arm Development Studio and had limited success with ST-LINK v2 and openocd.
 
 The table below lists the IO memory to enable hardware debugging on the SoC. We write to these locations in U-Boot and in Linux. To debug Linux in normal world EL2, we further disable all SDMMC references in the kernel's device tree.
@@ -42,6 +49,8 @@ sudo busybox devmem 0xFD5F8098 w
 
 You find more information on [wiring in our forum discussion](https://forum.radxa.com/t/debug-rock5b-rk3588-with-swd-jtag/25115).
 
+
 - [Datasheets](docs/reference/rk3588/datasheets/)
 - [SD Card breakout](https://de.aliexpress.com/item/1005006267829221.html?spm=a2g0o.order_list.order_list_main.340.4ed918025epvAS&gatewayAdapt=glo2deu)
 - `CONFIG_OPENCCA_HW_DEBUG` in [opencca-linux](https://github.com/opencca/linux)
+
