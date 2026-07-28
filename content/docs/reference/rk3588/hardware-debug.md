@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-The RK3588 SoC shares the GPIO pins of the SD card reader with the Serial Wire Debug Port (SW-DP), multiplexing the SDMMC pins `DATA2` and `DATA3` with `TCK` and `TMS`.
+The RK3588 SoC shares the GPIO pins of the SD card reader with the Serial Wire Debug Port (SW-DP), multiplexing the SDMMC pins `DATA2` and `CD/DATA3` with `TCK` and `TMS`.
 
 We use a Micro SD breakout board that exposes the SD card pins, allowing us to connect a hardware debugger to the board.
 
