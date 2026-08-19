@@ -9,3 +9,5 @@ Communication with Arm CCA](https://www.arxiv.org/abs/2512.01594)
 **[arxiv (2026)]** Song et al, [Shielded but Lightweight: Building Practical Confidential Containers with ARM CCA](https://arxiv.org/abs/2605.26018)
 
 **[USENIX Security (2026)]** Thorens et al, [CoKeMon: Configurable Kernel Monitoring by Decoupling Isolation](https://www.shwetashinde.org/publications/cokemon_usenix26.pdf)
+
+**[EuroMLSys (2026)]** Abdollahi et al, [AgenTEE: Confidential LLM Agent Execution on Edge](https://dl.acm.org/doi/abs/10.1145/3805621.3807660)
