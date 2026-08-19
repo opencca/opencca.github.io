@@ -14,7 +14,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Github Organization: [https://github.com/opencca](https://github.com/opencca)
+### Github Organizations
+- [https://github.com/opencca](https://github.com/opencca)
+- [https://github.com/orgs/fosdem2026-opencca](https://github.com/orgs/fosdem2026-opencca)
 
 
 ### Firmware
@@ -51,4 +53,5 @@ Github Organization: [https://github.com/opencca](https://github.com/opencca)
 | [opencca/ci-scripts](https://github.com/opencca/ci-scripts) | Continuous Integration for OpenCCA |
 | [opencca/rkdeveloptool](https://github.com/opencca/rkdeveloptool) | Rockchip development tool |
 | [opencca/rkbin](https://github.com/opencca/rkbin) | Rockchip loader binaries |
+| [opencca/power-data-pcb](https://github.com/opencca/opencca/power-data-pcb) | PCB to split usb-c power and data |
 
