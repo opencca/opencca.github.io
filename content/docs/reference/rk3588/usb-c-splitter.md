@@ -21,9 +21,10 @@ A USB-C splitter can be used to split the single USB-C port into separate data a
 
 <br />
 
-{{< img src="./usb-c-splitter.jpg" class="" width="100" alt=" DSTREAM-ST JTAG 20 connection" >}}
+{{< img src="./usb-c-splitter.jpg" class="" width="100" alt="usb-c splitter" >}}
+> Figure: Connect *Data1* to your host machine,
+> *Power1* to power plug, and *Combined1* to the RK3588.
 
-<br />
 
 See the PCB files on [github.com/opencca/power-data-pcb](https://github.com/opencca/power-data-pcb/).
 
