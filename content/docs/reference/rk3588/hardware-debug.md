@@ -53,4 +53,5 @@ You find more information on [wiring in our forum discussion](https://forum.radx
 - [Datasheets](docs/reference/rk3588/datasheets/)
 - [SD Card breakout](https://de.aliexpress.com/item/1005006267829221.html?spm=a2g0o.order_list.order_list_main.340.4ed918025epvAS&gatewayAdapt=glo2deu)
 - `CONFIG_OPENCCA_HW_DEBUG` in [opencca-linux](https://github.com/opencca/linux)
+- `CONFIG_RK3588_HW_DEBUG` in [opencca-uboot](https://github.com/opencca/u-boot/)
 
