@@ -53,5 +53,5 @@ seo:
 | [opencca/ci-scripts](https://github.com/opencca/ci-scripts) | Continuous Integration for OpenCCA |
 | [opencca/rkdeveloptool](https://github.com/opencca/rkdeveloptool) | Rockchip development tool |
 | [opencca/rkbin](https://github.com/opencca/rkbin) | Rockchip loader binaries |
-| [opencca/power-data-pcb](https://github.com/opencca/opencca/power-data-pcb) | PCB to split usb-c power and data |
+| [opencca/power-data-pcb](https://github.com/opencca/power-data-pcb) | PCB to split usb-c power and data |
 
