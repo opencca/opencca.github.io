@@ -120,7 +120,7 @@ Connect the USB-C dock to the Raspberry Pi. Connect the RK3588 to the dock as a 
 
 | Product | Link | US Link | Comment |
 | --- | --- | --- | --- |
-| Anker PowerExpand 6-in-1 USB-C | [Amazon (DE)](https://www.amazon.de/dp/B08CKXNJZS) | [Amazon](https://a.co/d/7Bthnd5) | The ROCK 5B multiplexes power + data on one USB-C port. A dock helps you power the board and flash firmware without cable juggling. See: [Radxa power supply discussion](https://wiki2.radxa.com/Rock5/5b/power_supply) |
+| Anker PowerExpand 6-in-1 USB-C | [Amazon (DE)](https://www.amazon.de/dp/B08CKXNJZS) | [Amazon](https://a.co/d/7Bthnd5) | The ROCK 5B multiplexes power + data on one USB-C port. A dock helps you power the board and flash firmware without cable juggling. See: [Radxa power supply discussion](https://wiki2.radxa.com/Rock5/5b/power_supply) and [split Power and Data](/docs/reference/rk3588/split-data--power). |
 | USB-C cable | generic | [Amazon](https://a.co/d/9qni6GJ) | Cable for power to RK3588 |
 </div>
 
