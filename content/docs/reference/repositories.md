@@ -17,6 +17,7 @@ seo:
 ### Github Organizations
 - [https://github.com/opencca](https://github.com/opencca)
 - [https://github.com/orgs/fosdem2026-opencca](https://github.com/orgs/fosdem2026-opencca)
+- [https://github.com/opencca-multi-manager](https://github.com/opencca-multi-manager)
 
 
 ### Firmware
