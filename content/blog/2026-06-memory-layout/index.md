@@ -1,10 +1,11 @@
 ---
-title: "Extended Memory Layout"
+title: "Extended Memory Layout: CVMs with more RAM"
 description: ""
 date: 2026-08-20T12:55:08+02:00
 date: 2026-08-20T12:55:08+02:00
 draft: false
 weight: 49
+slug: "extended-memory"
 categories: []
 tags: []
 contributors: []
