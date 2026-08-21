@@ -52,7 +52,7 @@ The box consists of an array of plates `(d)` ([3D case files here](https://www.p
 
 Each board connects to a central USB hub`(c)` that is connected to a single host machine.
 
-A ESP32 microcontroller `(e)` is connected to each board's Maskrom circuit via a GPIO pin, which is addressable on the control server via a small [custom firmware](https://github.com/opencca-multi-manager/multi-manager-esp32-gpio-controller). The box is connected to host machine via USB `(f)`, alongside ethernet and power.
+An ESP32 microcontroller `(e)` is connected to each board's Maskrom circuit via a GPIO pin, which is addressable on the control server via a small [custom firmware](https://github.com/opencca-multi-manager/multi-manager-esp32-gpio-controller). The box is connected to host machine via USB `(f)`, alongside ethernet and power.
 
 
 <br>
