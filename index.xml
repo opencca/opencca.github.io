@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenCCA - An Open Framework to Enable Arm CCA Research on OpenCCA</title><link>https://opencca.github.io/</link><description>Recent content in OpenCCA - An Open Framework to Enable Arm CCA Research on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2026 12:55:08 +0200</lastBuildDate><atom:link href="https://opencca.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Multi-Board Automation Box</title><link>https://opencca.github.io/blog/multi-board-automation-box/</link><pubDate>Thu, 20 Aug 2026 12:55:08 +0200</pubDate><guid>https://opencca.github.io/blog/multi-board-automation-box/</guid><description>&lt;p>The original &lt;a href="https://opencca.github.io/docs/guides/hardware/">OpenCCA box&lt;/a> manages to automate away a lot of manual work during development, however it does not scale well to development setups with multiple people or boards. It requires for example an entire Raspberry Pi to control each board.&lt;/p></description></item><item><title>Extended Memory Layout: CVMs with more RAM</title><link>https://opencca.github.io/blog/extended-memory/</link><pubDate>Thu, 20 Aug 2026 12:55:08 +0200</pubDate><guid>https://opencca.github.io/blog/extended-memory/</guid><description>&lt;p>The initial SysTeX release of OpenCCA limited usable memory on the platform to 4GB.
+This way, OpenCCA worked on all configurations of the RK3588, in including the 4GB model.&lt;/p></description></item><item><title>List with Hardware Parts</title><link>https://opencca.github.io/blog/list-with-hardware-parts/</link><pubDate>Thu, 25 Dec 2025 08:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/list-with-hardware-parts/</guid><description>&lt;style>
+.box-thumb img,
+img.box-thumb {
+ width: auto;
+ max-width: min(500px, 100%);
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+&lt;/style>
+&lt;p>We updated the site with a purchase list to build the opencca box.&lt;/p></description></item><item><title>Best Paper Award</title><link>https://opencca.github.io/blog/best-paper-award/</link><pubDate>Fri, 04 Jul 2025 16:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/best-paper-award/</guid><description>&lt;p>We’re happy to announce that our SysTEX'25 submission has received the best paper award.
+We thank everyone who supported us on this journey. Stay tuned for more updates!&lt;/p></description></item><item><title>Website is online!</title><link>https://opencca.github.io/blog/website-is-online/</link><pubDate>Thu, 17 Jul 2025 16:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/website-is-online/</guid><description>&lt;p>We’re excited to announce that &lt;strong>&lt;a href="https://opencca.github.io">opencca.github.io&lt;/a>&lt;/strong> is now live!&lt;/p>
+&lt;p>This is the new home for all things OpenCCA. Over the coming months, we’ll be adding more documentation.&lt;/p></description></item><item><title>Getting Started</title><link>https://opencca.github.io/docs/guides/getting-started/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/getting-started/</guid><description>&lt;p>Follow the &lt;a href="https://github.com/opencca/opencca-build">build instructions&lt;/a> on GitHub to build and run OpenCCA. See the &lt;a href="https://opencca.github.io/docs/guides/faq/">FAQ&lt;/a> for common pitfalls.&lt;/p>
+&lt;p>&lt;a href="https://github.com/opencca/opencca-build">
+&lt;img
+ srcset="data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQAA4AAph8J6WVuAGIAAD&amp;#43;8E3k315N1zU4gAAA"
+ data-srcset="https://opencca.github.io/images/getting-started-image_hu_84ffeda55b631a44.webp 300w,/images/getting-started-image_hu_d08efade43cee0b.webp 600w,/images/getting-started-image_hu_98d302a62be9866f.webp 900w,/images/getting-started-image_hu_66b67c39fecdb64.webp 1200w,/images/getting-started-image_hu_ffcc10ae6e1ccdd9.webp 1218w"
+ data-sizes="auto"
+ src="https://opencca.github.io/images/getting-started-image_hu_9b830f7030929f92.jpg"
+ width="1218"
+ height="1073"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt="Getting started"
+ class="lazyload blur-up hugo-image-500"
+>&lt;/a>&lt;/p></description></item><item><title>Hardware</title><link>https://opencca.github.io/docs/guides/hardware/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/hardware/</guid><description>&lt;style>
+ .table-compact-col2 table td:nth-child(2),
+.table-compact-col2 table th:nth-child(2) {
+ /* font-size: 0.82rem; /* smaller text in column 2 */
+ /* line-height: 1.2; */ */
+}
+
+.table-compact-col2 table td:nth-child(2) {
+ /* /* max-width: 28rem; */
+ /* white-space: normal; allow wrapping */
+}
+
+.table-parts {
+ margin-top: -30px;
+ font-size: 1rem;
+}
+
+.img-row {
+ display: flex;
+ gap: 16px;
+ align-items: flex-start;
+ flex-wrap: wrap; /* optional, helps on mobile */
+}
+
+.img-col {
+ flex: 1 1 45%;
+}
+
+.img-col img {
+ width: 100%;
+ height: auto;
+ display: block;
+}
+&lt;/style>
+&lt;blockquote>
+&lt;p>&lt;em>This page is still work in progress. Improve the site by &lt;a href="https://github.com/opencca/opencca.github.io/blob/opencca/main/content/docs/guides/hardware.md">filing a pull request on GitHub.&lt;/a>&lt;/em>
+&lt;em>Switzerland and US purchase links are listed below; please add other international links via a PR.&lt;/em>&lt;/p></description></item><item><title>Build the Box</title><link>https://opencca.github.io/docs/guides/build-the-box/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/build-the-box/</guid><description>&lt;p>This page provides assembly instructions for the OpenCCA automation box. Before starting, make sure you have all the parts listed in &lt;a href="https://opencca.github.io/docs/guides/hardware#automation-box">Hardware&lt;/a>.&lt;/p></description></item><item><title>FAQ</title><link>https://opencca.github.io/docs/guides/faq/</link><pubDate>Sun, 07 Sep 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/faq/</guid><description>&lt;p>This FAQ collects frequently asked questions about using OpenCCA on different hardware and configurations.&lt;/p>
+&lt;p>You find more questions, implemented features and fixed bugs in the &lt;a href="https://github.com/orgs/opencca/projects/12">Github Project overview&lt;/a>.&lt;/p></description></item><item><title>Presentations</title><link>https://opencca.github.io/docs/showcase/presentations/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/showcase/presentations/</guid><description>&lt;h3 id="open-confidental-computing-conference-2026">Open Confidental Computing Conference 2026&lt;/h3>
+&lt;a class="yt-jump" href="https://www.youtube.com/watch?v=Yxmt4whwK7Q&amp;amp;t=0s" target="_blank" rel="noopener noreferrer">
+ &lt;img class="yt-jump__img" src="https://opencca.github.io/images/oc3-cover-2.jpg" alt="OC3 Talk">
+ &lt;span class="yt-jump__play" aria-hidden="true">
+ 
+ &lt;svg viewBox="0 0 68 48" width="68" height="48" focusable="false">
+ &lt;path d="M66.52 7.85a8 8 0 0 0-5.63-5.66C55.9 0.8 34 0.8 34 0.8S12.1 0.8 7.11 2.19A8 8 0 0 0 1.48 7.85 83.3 83.3 0 0 0 0 24a83.3 83.3 0 0 0 1.48 16.15 8 8 0 0 0 5.63 5.66C12.1 47.2 34 47.2 34 47.2s21.9 0 26.89-1.39a8 8 0 0 0 5.63-5.66A83.3 83.3 0 0 0 68 24a83.3 83.3 0 0 0-1.48-16.15Z" opacity=".9"/>
+ &lt;path d="M45 24 27 14v20z" fill="#fff"/>
+ &lt;/svg>
+ &lt;/span>
+&lt;/a>
+
+&lt;div style="margin-top: 10px"> &lt;/div>
+&lt;p>High Level Introduction to OpenCCA, &lt;a href="https://opencca.github.io/slides/2026-oc3-opencca.pdf">Slides&lt;/a>&lt;br>
+12. March 2026, Berlin, &lt;a href="https://www.oc3.dev/">OC3 2026&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Showcase on OpenCCA</title><link>https://opencca.github.io/docs/showcase/</link><description>Recent content in Showcase on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Jan 2025 16:04:48 +0200</lastBuildDate><atom:link href="https://opencca.github.io/docs/showcase/index.xml" rel="self" type="application/rss+xml"/><item><title>Presentations</title><link>https://opencca.github.io/docs/showcase/presentations/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/showcase/presentations/</guid><description>&lt;h3 id="open-confidental-computing-conference-2026">Open Confidental Computing Conference 2026&lt;/h3>
+&lt;a class="yt-jump" href="https://www.youtube.com/watch?v=Yxmt4whwK7Q&amp;amp;t=0s" target="_blank" rel="noopener noreferrer">
+ &lt;img class="yt-jump__img" src="https://opencca.github.io/images/oc3-cover-2.jpg" alt="OC3 Talk">
+ &lt;span class="yt-jump__play" aria-hidden="true">
+ 
+ &lt;svg viewBox="0 0 68 48" width="68" height="48" focusable="false">
+ &lt;path d="M66.52 7.85a8 8 0 0 0-5.63-5.66C55.9 0.8 34 0.8 34 0.8S12.1 0.8 7.11 2.19A8 8 0 0 0 1.48 7.85 83.3 83.3 0 0 0 0 24a83.3 83.3 0 0 0 1.48 16.15 8 8 0 0 0 5.63 5.66C12.1 47.2 34 47.2 34 47.2s21.9 0 26.89-1.39a8 8 0 0 0 5.63-5.66A83.3 83.3 0 0 0 68 24a83.3 83.3 0 0 0-1.48-16.15Z" opacity=".9"/>
+ &lt;path d="M45 24 27 14v20z" fill="#fff"/>
+ &lt;/svg>
+ &lt;/span>
+&lt;/a>
+
+&lt;div style="margin-top: 10px"> &lt;/div>
+&lt;p>High Level Introduction to OpenCCA, &lt;a href="https://opencca.github.io/slides/2026-oc3-opencca.pdf">Slides&lt;/a>&lt;br>
+12. March 2026, Berlin, &lt;a href="https://www.oc3.dev/">OC3 2026&lt;/a>&lt;/p></description></item></channel></rss>

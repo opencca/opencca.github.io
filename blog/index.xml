@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on OpenCCA</title><link>https://opencca.github.io/blog/</link><description>Recent content in Blog on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2026 12:55:08 +0200</lastBuildDate><atom:link href="https://opencca.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Multi-Board Automation Box</title><link>https://opencca.github.io/blog/multi-board-automation-box/</link><pubDate>Thu, 20 Aug 2026 12:55:08 +0200</pubDate><guid>https://opencca.github.io/blog/multi-board-automation-box/</guid><description>&lt;p>The original &lt;a href="https://opencca.github.io/docs/guides/hardware/">OpenCCA box&lt;/a> manages to automate away a lot of manual work during development, however it does not scale well to development setups with multiple people or boards. It requires for example an entire Raspberry Pi to control each board.&lt;/p></description></item><item><title>Extended Memory Layout: CVMs with more RAM</title><link>https://opencca.github.io/blog/extended-memory/</link><pubDate>Thu, 20 Aug 2026 12:55:08 +0200</pubDate><guid>https://opencca.github.io/blog/extended-memory/</guid><description>&lt;p>The initial SysTeX release of OpenCCA limited usable memory on the platform to 4GB.
+This way, OpenCCA worked on all configurations of the RK3588, in including the 4GB model.&lt;/p></description></item><item><title>List with Hardware Parts</title><link>https://opencca.github.io/blog/list-with-hardware-parts/</link><pubDate>Thu, 25 Dec 2025 08:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/list-with-hardware-parts/</guid><description>&lt;style>
+.box-thumb img,
+img.box-thumb {
+ width: auto;
+ max-width: min(500px, 100%);
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+&lt;/style>
+&lt;p>We updated the site with a purchase list to build the opencca box.&lt;/p></description></item><item><title>Best Paper Award</title><link>https://opencca.github.io/blog/best-paper-award/</link><pubDate>Fri, 04 Jul 2025 16:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/best-paper-award/</guid><description>&lt;p>We’re happy to announce that our SysTEX'25 submission has received the best paper award.
+We thank everyone who supported us on this journey. Stay tuned for more updates!&lt;/p></description></item><item><title>Website is online!</title><link>https://opencca.github.io/blog/website-is-online/</link><pubDate>Thu, 17 Jul 2025 16:27:22 +0200</pubDate><guid>https://opencca.github.io/blog/website-is-online/</guid><description>&lt;p>We’re excited to announce that &lt;strong>&lt;a href="https://opencca.github.io">opencca.github.io&lt;/a>&lt;/strong> is now live!&lt;/p>
+&lt;p>This is the new home for all things OpenCCA. Over the coming months, we’ll be adding more documentation.&lt;/p></description></item></channel></rss>
