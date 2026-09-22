@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RK3588 on OpenCCA</title><link>https://opencca.github.io/docs/reference/rk3588/</link><description>Recent content in RK3588 on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 01 Aug 2026 16:04:48 +0200</lastBuildDate><atom:link href="https://opencca.github.io/docs/reference/rk3588/index.xml" rel="self" type="application/rss+xml"/><item><title>Bootflow</title><link>https://opencca.github.io/docs/reference/rk3588/bootflow/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/bootflow/</guid><description>&lt;h2 id="rk3588-boot">RK3588 Boot&lt;/h2>
+&lt;p>The firmware boot process begins when the SoC is powered on and continues until control is handed over to the untrusted hypervisor.&lt;/p></description></item><item><title>Memory Layout</title><link>https://opencca.github.io/docs/reference/rk3588/memory-layout/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/memory-layout/</guid><description>&lt;h2 id="layout">Layout&lt;/h2>
+&lt;p>We load the firmware at the beginning of the first DRAM.&lt;/p>
+&lt;!-- TODO: There is a typo in the comment in the source, fix that first -->
+
+&lt;img
+ srcset="data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoQAAMAAph8JwBOgCG6Q9n/AAD&amp;#43;3x1R2cGGQmyVInczUNQAAAA="
+ data-srcset="https://opencca.github.io/images/memorylayout1_hu_5579e70ac9ad6949.webp 300w,/images/memorylayout1_hu_ee0b89f5504f9e59.webp 600w,/images/memorylayout1_hu_11958899260512aa.webp 900w,/images/memorylayout1_hu_71bc9960bfb981ad.webp 1200w,/images/memorylayout1_hu_cdc538cd1a1a80b1.webp 1906w"
+ data-sizes="auto"
+ src="https://opencca.github.io/images/memorylayout1_hu_13438108185d9cd4.jpg"
+ width="1906"
+ height="330"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt="Memory Layout"
+ class="lazyload blur-up hugo-image"
+>
+&lt;blockquote>
+&lt;p>Figure: Memory region DRAM Bank 1. Color: Firmware memory. Not to scale.
+&lt;br />&lt;/p></description></item><item><title>Split Data + Power</title><link>https://opencca.github.io/docs/reference/rk3588/split-data--power/</link><pubDate>Sat, 01 Aug 2026 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/split-data--power/</guid><description>&lt;p>Depending on your power supply, the single USB-C PD port may not provide enough power to both flash firmware and reliably power all cores.
+This can lead to boot loops when too many cores draw current at the same time.
+A USB-C splitter can be used to split the single USB-C port into separate data and power ports.&lt;/p></description></item><item><title>Connect to UART</title><link>https://opencca.github.io/docs/reference/rk3588/connect-to-uart/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/connect-to-uart/</guid><description>&lt;p>Connect to TX, RX and GND to the TTL usb adapter (we need 3.3V).&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Pins odd&lt;/th>
+ &lt;th>Pin&lt;/th>
+ &lt;th>Pin&lt;/th>
+ &lt;th>Pins even&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Vref (3.3V)&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>5V&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GPIO&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>5V&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GPIO&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>&lt;strong>6&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>GND&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GPIO&lt;/td>
+ &lt;td>7&lt;/td>
+ &lt;td>&lt;strong>8&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>UART_TX&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GND&lt;/td>
+ &lt;td>9&lt;/td>
+ &lt;td>&lt;strong>10&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>UART_RX&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&amp;hellip;&lt;/td>
+ &lt;td>&amp;hellip;&lt;/td>
+ &lt;td>&amp;hellip;&lt;/td>
+ &lt;td>&amp;hellip;&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/bin/bash
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>cat &amp;gt; &lt;span class="nv">$HOME&lt;/span>/.minirc.rock5b &lt;span class="s">&amp;lt;&amp;lt;- CMD
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">pu baudrate 1500000
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">pu bits 8
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">pu parity N
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">pu stopbits 1
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">pu rtscts No
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">CMD&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">minicom -w -t xterm -l -R UTF-8 -D /dev/ttyUSB0 rock5 -C ./minicom.txt&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.radxa.com/en/rock5/rock5b/radxa-os/serial">Connecting Serial Console&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/opencca/opencca-flash/blob/opencca/main/minicom.sh">Connect to board with Minicom&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Hardware Debugging</title><link>https://opencca.github.io/docs/reference/rk3588/hardware-debugging/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/hardware-debugging/</guid><description>&lt;p>The RK3588 SoC shares the GPIO pins of the SD card reader with the Serial Wire Debug Port (SW-DP), multiplexing the SDMMC pins &lt;code>DATA2&lt;/code> and &lt;code>CD/DATA3&lt;/code> with &lt;code>TCK&lt;/code> and &lt;code>TMS&lt;/code>.&lt;/p></description></item><item><title>Datasheets</title><link>https://opencca.github.io/docs/reference/rk3588/datasheets/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/datasheets/</guid><description>&lt;p>You find a mirror of the technical reference manuals of the RK3588 at:&lt;/p>
+&lt;p>&lt;a href="https://github.com/opencca/rk3588-TRM-and-Datasheet">https://github.com/opencca/rk3588-TRM-and-Datasheet&lt;/a>&lt;/p></description></item><item><title>Mali G610 in CVM</title><link>https://opencca.github.io/docs/reference/rk3588/mali-g610-in-cvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://opencca.github.io/docs/reference/rk3588/mali-g610-in-cvm/</guid><description>&lt;a class="yt-jump" href="https://www.youtube.com/watch?v=sp0Y_qHXsxw&amp;amp;t=0s" target="_blank" rel="noopener noreferrer">
+ &lt;img class="yt-jump__img" src="https://opencca.github.io/images/gpu-demo.jpg" alt="Device Demo">
+ &lt;span class="yt-jump__play" aria-hidden="true">
+ 
+ &lt;svg viewBox="0 0 68 48" width="68" height="48" focusable="false">
+ &lt;path d="M66.52 7.85a8 8 0 0 0-5.63-5.66C55.9 0.8 34 0.8 34 0.8S12.1 0.8 7.11 2.19A8 8 0 0 0 1.48 7.85 83.3 83.3 0 0 0 0 24a83.3 83.3 0 0 0 1.48 16.15 8 8 0 0 0 5.63 5.66C12.1 47.2 34 47.2 34 47.2s21.9 0 26.89-1.39a8 8 0 0 0 5.63-5.66A83.3 83.3 0 0 0 68 24a83.3 83.3 0 0 0-1.48-16.15Z" opacity=".9"/>
+ &lt;path d="M45 24 27 14v20z" fill="#fff"/>
+ &lt;/svg>
+ &lt;/span>
+&lt;/a>
+
+&lt;div style="margin-top: 10px"> &lt;/div>
+&lt;p>Find demo code in &lt;a href="https://github.com/fosdem2026-opencca/demo/tree/master/demo-scripts">https://github.com/fosdem2026-opencca/&lt;/a>.&lt;/p></description></item></channel></rss>

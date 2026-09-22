@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guides on OpenCCA</title><link>https://opencca.github.io/docs/guides/</link><description>Recent content in Guides on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 07 Sep 2025 16:04:48 +0200</lastBuildDate><atom:link href="https://opencca.github.io/docs/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://opencca.github.io/docs/guides/getting-started/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/getting-started/</guid><description>&lt;p>Follow the &lt;a href="https://github.com/opencca/opencca-build">build instructions&lt;/a> on GitHub to build and run OpenCCA. See the &lt;a href="https://opencca.github.io/docs/guides/faq/">FAQ&lt;/a> for common pitfalls.&lt;/p>
+&lt;p>&lt;a href="https://github.com/opencca/opencca-build">
+&lt;img
+ srcset="data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAABwAQCdASoQAA4AAph8J6WVuAGIAAD&amp;#43;8E3k315N1zU4gAAA"
+ data-srcset="https://opencca.github.io/images/getting-started-image_hu_84ffeda55b631a44.webp 300w,/images/getting-started-image_hu_d08efade43cee0b.webp 600w,/images/getting-started-image_hu_98d302a62be9866f.webp 900w,/images/getting-started-image_hu_66b67c39fecdb64.webp 1200w,/images/getting-started-image_hu_ffcc10ae6e1ccdd9.webp 1218w"
+ data-sizes="auto"
+ src="https://opencca.github.io/images/getting-started-image_hu_9b830f7030929f92.jpg"
+ width="1218"
+ height="1073"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt="Getting started"
+ class="lazyload blur-up hugo-image-500"
+>&lt;/a>&lt;/p></description></item><item><title>Hardware</title><link>https://opencca.github.io/docs/guides/hardware/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/hardware/</guid><description>&lt;style>
+ .table-compact-col2 table td:nth-child(2),
+.table-compact-col2 table th:nth-child(2) {
+ /* font-size: 0.82rem; /* smaller text in column 2 */
+ /* line-height: 1.2; */ */
+}
+
+.table-compact-col2 table td:nth-child(2) {
+ /* /* max-width: 28rem; */
+ /* white-space: normal; allow wrapping */
+}
+
+.table-parts {
+ margin-top: -30px;
+ font-size: 1rem;
+}
+
+.img-row {
+ display: flex;
+ gap: 16px;
+ align-items: flex-start;
+ flex-wrap: wrap; /* optional, helps on mobile */
+}
+
+.img-col {
+ flex: 1 1 45%;
+}
+
+.img-col img {
+ width: 100%;
+ height: auto;
+ display: block;
+}
+&lt;/style>
+&lt;blockquote>
+&lt;p>&lt;em>This page is still work in progress. Improve the site by &lt;a href="https://github.com/opencca/opencca.github.io/blob/opencca/main/content/docs/guides/hardware.md">filing a pull request on GitHub.&lt;/a>&lt;/em>
+&lt;em>Switzerland and US purchase links are listed below; please add other international links via a PR.&lt;/em>&lt;/p></description></item><item><title>Build the Box</title><link>https://opencca.github.io/docs/guides/build-the-box/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/build-the-box/</guid><description>&lt;p>This page provides assembly instructions for the OpenCCA automation box. Before starting, make sure you have all the parts listed in &lt;a href="https://opencca.github.io/docs/guides/hardware#automation-box">Hardware&lt;/a>.&lt;/p></description></item><item><title>FAQ</title><link>https://opencca.github.io/docs/guides/faq/</link><pubDate>Sun, 07 Sep 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/guides/faq/</guid><description>&lt;p>This FAQ collects frequently asked questions about using OpenCCA on different hardware and configurations.&lt;/p>
+&lt;p>You find more questions, implemented features and fixed bugs in the &lt;a href="https://github.com/orgs/opencca/projects/12">Github Project overview&lt;/a>.&lt;/p></description></item></channel></rss>

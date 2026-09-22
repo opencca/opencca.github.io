@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>What's next on OpenCCA</title><link>https://opencca.github.io/docs/what_is_next/</link><description>Recent content in What's next on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Jan 2025 16:04:48 +0200</lastBuildDate><atom:link href="https://opencca.github.io/docs/what_is_next/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://opencca.github.io/docs/what_is_next/roadmap/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/what_is_next/roadmap/</guid><description>&lt;h3 id="what-we-are-working-on-next">What We Are Working On Next&lt;/h3>
+&lt;p>Below we outline some of our current areas of focus for OpenCCA.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>OpenCCA on Android&lt;/strong>
+We are exploring how OpenCCA can be leveraged in the &lt;strong>Android ecosystem&lt;/strong>, enabling confidential computing research in mobile settings.&lt;/p></description></item></channel></rss>

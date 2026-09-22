@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference on OpenCCA</title><link>https://opencca.github.io/docs/reference/</link><description>Recent content in Reference on OpenCCA</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Jan 2025 16:04:48 +0200</lastBuildDate><atom:link href="https://opencca.github.io/docs/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>CI Builds</title><link>https://opencca.github.io/docs/reference/ci-builds/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/ci-builds/</guid><description>&lt;p>We host a &lt;a href="https://github.com/opencca/ci-scripts">Github Runner&lt;/a> that provides reproducible builds.&lt;/p>
+&lt;p>You find pre-built assets in &lt;a href="https://github.com/opencca/opencca-releases">opencca-releases&lt;/a>.&lt;/p>
+&lt;h3 id="tools">Tools&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repository&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Build Status&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-build/blob/opencca/main/.github/workflows/tutorial/tutorial-on-host.sh">tutorial&lt;/a>&lt;/td>
+ &lt;td>Quick start to build firmware&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-build/actions/workflows/tutorial.yml">&lt;img src="https://github.com/opencca/opencca-build/actions/workflows/tutorial.yml/badge.svg" alt="quick-start tutorial">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-build">opencca-build&lt;/a>&lt;/td>
+ &lt;td>Build docker container&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-build/actions/workflows/build.yaml">&lt;img src="https://github.com/opencca/opencca-build/actions/workflows/build.yaml/badge.svg" alt="build-container">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="firmware">Firmware&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repository&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;th>Build Status&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/arm-trusted-firmware">arm-trusted-firmware&lt;/a>&lt;/td>
+ &lt;td>Arm TF-A&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/arm-trusted-firmware/actions/workflows/opencca-build.yml">&lt;img src="https://github.com/opencca/arm-trusted-firmware/actions/workflows/opencca-build.yml/badge.svg" alt="opencca-build">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/tf-rmm">tf-rmm&lt;/a>&lt;/td>
+ &lt;td>Realm Management Monitor (TF-RMM)&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/tf-rmm/actions/workflows/opencca-build.yml">&lt;img src="https://github.com/opencca/tf-rmm/actions/workflows/opencca-build.yml/badge.svg" alt="opencca-build">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/kvmtool">kvmtool&lt;/a>&lt;/td>
+ &lt;td>Kvmtool VMM&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/kvmtool/actions/workflows/opencca-build.yml">&lt;img src="https://github.com/opencca/kvmtool/actions/workflows/opencca-build.yml/badge.svg" alt="opencca-build">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/linux">linux&lt;/a>&lt;/td>
+ &lt;td>CCA Enlightened Host/Guest Kernels&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/linux/actions/workflows/opencca-build.yml">&lt;img src="https://github.com/opencca/linux/actions/workflows/opencca-build.yml/badge.svg" alt="opencca-build">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/u-boot">u-boot&lt;/a>&lt;/td>
+ &lt;td>Second Stage Loader U-Boot&lt;/td>
+ &lt;td>&lt;a href="https://github.com/opencca/u-boot/actions/workflows/opencca-build.yml">&lt;img src="https://github.com/opencca/u-boot/actions/workflows/opencca-build.yml/badge.svg" alt="opencca-build">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Source Repositories</title><link>https://opencca.github.io/docs/reference/source-repositories/</link><pubDate>Fri, 01 Aug 2025 16:04:48 +0200</pubDate><guid>https://opencca.github.io/docs/reference/source-repositories/</guid><description>&lt;h3 id="github-organizations">Github Organizations&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/opencca">https://github.com/opencca&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/orgs/fosdem2026-opencca">https://github.com/orgs/fosdem2026-opencca&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/opencca-multi-manager">https://github.com/opencca-multi-manager&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="firmware">Firmware&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repo&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-manifest">opencca/opencca-manifest&lt;/a>&lt;/td>
+ &lt;td>OpenCCA Repo Tool Manifest&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/kvmtool">opencca/kvmtool&lt;/a>&lt;/td>
+ &lt;td>kvmtool VMM for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/arm-trusted-firmware">opencca/arm-trusted-firmware&lt;/a>&lt;/td>
+ &lt;td>Arm Trusted Firmware-A for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/u-boot">opencca/u-boot&lt;/a>&lt;/td>
+ &lt;td>RK3588 SPL (BL2) for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/tf-rmm">opencca/tf-rmm&lt;/a>&lt;/td>
+ &lt;td>TF-RMM for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/linux">opencca/linux&lt;/a>&lt;/td>
+ &lt;td>Linux kernel for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="build-and-flash">Build and Flash&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repo&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-build">opencca/opencca-build&lt;/a>&lt;/td>
+ &lt;td>Development Environment for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-flash">opencca/opencca-flash&lt;/a>&lt;/td>
+ &lt;td>OpenCCA Flashtools for RK3588 SoC&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/debian-image-recipes">opencca/debian-image-recipes&lt;/a>&lt;/td>
+ &lt;td>Tools to build Debian-based root filesystem for RK3588&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="documentation-and-assets">Documentation and Assets&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repo&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca">opencca/opencca&lt;/a>&lt;/td>
+ &lt;td>Entry Point with README&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-releases">opencca/opencca-releases&lt;/a>&lt;/td>
+ &lt;td>OpenCCA Binary Releases&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca-assets">opencca/opencca-assets&lt;/a>&lt;/td>
+ &lt;td>OpenCCA binary assets&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/opencca.github.io">opencca/opencca.github.io&lt;/a>&lt;/td>
+ &lt;td>The OpenCCA Project, Webpage&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="helpers-and-utilities">Helpers and Utilities&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Repo&lt;/th>
+ &lt;th>Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/hotspot">opencca/hotspot&lt;/a>&lt;/td>
+ &lt;td>Utility to create a Hotspot&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/ci-scripts">opencca/ci-scripts&lt;/a>&lt;/td>
+ &lt;td>Continuous Integration for OpenCCA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/rkdeveloptool">opencca/rkdeveloptool&lt;/a>&lt;/td>
+ &lt;td>Rockchip development tool&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/rkbin">opencca/rkbin&lt;/a>&lt;/td>
+ &lt;td>Rockchip loader binaries&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="https://github.com/opencca/power-data-pcb">opencca/power-data-pcb&lt;/a>&lt;/td>
+ &lt;td>PCB to split usb-c power and data&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
