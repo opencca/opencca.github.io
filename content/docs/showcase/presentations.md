@@ -22,7 +22,7 @@ seo:
 >}}
 <div style="margin-top: 10px"> </div>
 
-High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)  
+High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)
 12. March 2026, Berlin, [OC3 2026](https://www.oc3.dev/)
 
 
@@ -38,7 +38,7 @@ High Level Introduction to OpenCCA, [Slides](/slides/2026-oc3-opencca.pdf)
 <div style="margin-top: 10px"> </div>
 
 
-Making Arm CCA Research Accessible, [Slides](/slides/2025-summit-opencca.pdf)  
+Making Arm CCA Research Accessible, [Slides](/slides/2025-summit-opencca.pdf)
  17. June 2025, San Francisco, [CC Summit 2025](https://www.confidentialcomputingsummit.com/e/ccs25)
 
 
@@ -87,3 +87,12 @@ Demo showcasing hypervisor and CVM boot with Debian Trixie rootfs, Linux 6.12. -
 <div style="margin-top: 10px"> </div>
 Sneak peak of what is coming next. Currently unreleased. OpenCCA on RK3588 Android 14 (Linux 6.12).
 
+### OpenCCA on All Armv8.2+ Hardware
+
+<a href="/images/el3-less.jpg">
+{{< img src="images/el3-less.jpg" class="" width="100" alt="EL3-less mode opencca" >}}
+</a>
+
+<div style="margin-top: 10px"> </div>
+Sneak peak of what is coming next.
+With a new EL3-less mode, OpenCCA will be able to boot the CCA reference stack even on hardware platforms with a locked-down EL3, i.e. phones and servers.
